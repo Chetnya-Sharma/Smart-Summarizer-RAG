@@ -31,8 +31,6 @@ print("Top documents:", top_docs)
 ## Directory Structure
 ```
 SmartSummarizerRAG/
-│── data/               # (Optional) Sample dataset or instructions to download
-│── models/             # (Optional) Pretrained/Trained models
 │── notebooks/          # Jupyter Notebooks for experiments
 │── src/                # Main source code
 │    ├── embedding.py   # Code for text embedding using HuggingFace
