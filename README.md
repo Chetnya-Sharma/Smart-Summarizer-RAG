@@ -36,8 +36,13 @@ SmartSummarizerRAG/
 │    ├── embedding.py   # Code for text embedding using HuggingFace
 │    ├── clustering.py  # UMAP and GMM clustering
 │    ├── retrieval.py   # Context-aware retrieval implementation
+│    ├── summarization.py # Summarization model integration
 │    ├── visualization.py # BIC & Matplotlib visualizations
 │── tests/              # Unit tests
+│    ├── test_embedding.py   # Tests for embedding functions
+│    ├── test_clustering.py  # Tests for clustering functions
+│    ├── test_retrieval.py   # Tests for retrieval system
+│    ├── test_summarization.py  # Tests for summarization module
 │── requirements.txt    # Python dependencies
 │── README.md           # Project documentation
 │── setup.py            # If you plan to make it installable
